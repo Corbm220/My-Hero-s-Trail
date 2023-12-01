@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_editor_wall",
   "spriteId": {
     "name": "spr_editor_wall",
     "path": "sprites/spr_editor_wall/spr_editor_wall.yy",
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "Level",
     "path": "folders/Objects/Level.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_editor_wall",
-  "tags": [],
-  "resourceType": "GMObject",
 }
