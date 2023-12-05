@@ -12,10 +12,3 @@ move_speed = 4;
 /// @DnDComment : Initialize coins value at 0
 /// @DnDArgument : "var" "coins"
 coins = 0;
-
-/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
-/// @DnDVersion : 1
-/// @DnDHash : 6E38FB11
-/// @DnDArgument : "lives" "3"
-
-__dnd_lives = real(3);

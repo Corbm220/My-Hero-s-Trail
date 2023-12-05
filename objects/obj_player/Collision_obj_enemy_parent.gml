@@ -6,25 +6,6 @@
 /// @DnDArgument : "op" "1"
 if(alarm[0] < 0)
 {
-	/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
-	/// @DnDVersion : 1
-	/// @DnDHash : 380FA85E
-	/// @DnDParent : 1362B03B
-	/// @DnDArgument : "lives" "-1"
-	/// @DnDArgument : "lives_relative" "1"
-	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-	__dnd_lives += real(-1);
-
-	/// @DnDAction : YoYo Games.Instance Variables.If_Lives
-	/// @DnDVersion : 1
-	/// @DnDHash : 59B2CF20
-	/// @DnDParent : 1362B03B
-	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-	if(__dnd_lives == 0)
-	{
-	
-	}
-
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 0A333880
